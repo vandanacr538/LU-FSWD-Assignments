@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Details Form</title>
+    </head>
+    <body bgcolor="greenyellow" border="1">
+        <center>
+            <form action="" method="GET">
+                <h3><font color="red">Personal Details</font></h3>
+                <label for="username">Name:</label>
+                <input type="text" name="username" id="username">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+                <br><br>
+                <label for="email">E-mail id:</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <br><br>
+                <label for="contact">Contact#:</label>
+                <input type="tel" name="contact" id="contact">
+                <br><br>
+                <h3><font color="red">Educational Qualification</font></h3>
+                <label for="degree">Degree:</label>
+                <select name="degree" id="degree">
+                    <option value="none" selected disabled hidden>--Select Group--</option>
+                    <option value="bcom">B.Com</option>
+                    <option value="bsc">B.sc</option>
+                    <option value="bcomcomp">B.com Computers</option>
+                    <option value="ba">B.A</option>
+                </select>
+                <br><br>
+                <label for="eng">Engineering:</label>
+                <select name="eng" id="eng">
+                    <option value="none" selected disabled hidden>--Select Group--</option>
+                    <option value="cse">CSE</option>
+                    <option value="ece">ECE</option>
+                    <option value="civil">CIVIL</option>
+                    <option value="eee">EEE</option>
+                </select>
+                <br><br>
+                <label for="hobbies">Hobbies:</label>
+                <input type="radio" name="chess" value="chess">Playing Chess
+                <input type="radio" name="books" id="books">Reading books
+                <br><br>
+                <h3><font color="red">Address</font></h3>
+                <textarea name="address" id="address" cols="40" rows="5"></textarea>
+                <br><br>
+                <label for="resume">Attach Resume:</label>
+                <input type="file" name="resume" id="resume" placeholder="Choose file">
+                <br><br>
+                <button>SUBMIT</button>
+            </form>
+        </center>
+    </body>
+</html>
