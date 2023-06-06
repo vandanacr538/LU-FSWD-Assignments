@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+} 
+.container{
+    padding: 20px;
+}
+.container h2{
+    margin-top: 0;
+}
+li{
+    padding: 10px 5px;
+}
