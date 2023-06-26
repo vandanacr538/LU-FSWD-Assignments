@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-color: #eee;
+}
+.main-container{
+    margin: 10px 30px;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    background-color: #4d4c4c;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}

@@ -7,7 +7,7 @@ export default function Header() {
     <div>
         <header className='my-header'>
             <ul className='menu'>
-                <Link to="/form"><li>Form</li></Link>
+                <Link to="/home/form"><li>Form</li></Link>
             </ul>
         </header>
     </div>

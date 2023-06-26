@@ -1,0 +1,14 @@
+.login-container{
+    width: 400px;
+    height: 300px;
+    background-color: beige;
+    margin: 100px auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.errors{
+    color: red;
+}
